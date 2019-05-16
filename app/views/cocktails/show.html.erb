@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <h1><%= @cocktail.name %></h1>
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <th scope="row">name</th>
+            <td><%= @cocktail.name %></td>
+          </tr>
+
+          <% @cocktail.doses.each do |f| %>
+          <tr>
+            <th scope="row">name</th>
+            <td><%= f.description %></td>
+          </tr>
+          <% end %>
+        </tbody>
+      </table>
+
+
+
+      <%= render "doses/form" %>
+
+
+      <%= link_to "See all cocktails", cocktails_path %>
+    </div>
+  </div>
+</div>
