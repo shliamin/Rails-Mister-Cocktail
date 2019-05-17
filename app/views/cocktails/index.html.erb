@@ -15,7 +15,8 @@
           <% @cocktails.each do |cocktail| %>
             <li class="list-group-item">
               <%= link_to cocktail.name, cocktail_path(cocktail) %>
-              <%= link_to "edit a Cocktail", edit_cocktail_path(cocktail.id) %>
+              <%= link_to "edit a cocktail", edit_cocktail_path(cocktail.id) %>
+              <%= link_to "delete a cocktail", cocktail_path(cocktail), method: :delete %>
             </li>
           <% end %>
         </ul>
