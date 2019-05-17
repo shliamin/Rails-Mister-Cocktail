@@ -1,11 +1,11 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <h1>Create a new dose</h1>
+      <h1>Create a new dose for the ingredient and press CREATE</h1>
       <%= simple_form_for [@cocktail, @dose] do |f| %>
       <%= f.input :description %>
       <%= f.association :ingredient %>
-      <%= f.submit class: 'btn btn-pimary' %>
+      <%= f.submit "Create", class: 'btn btn-primary' %>
       <% end%>
     </div>
   </div>
