@@ -3,16 +3,13 @@
 
 body{
   background: EDEEF0;
-  // font-family: 'Dancing Script', cursive;
-  // font-family: 'Shadows Into Light', cursive;
   font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
   font-size: 25px;
-  // text: rgb(16%, 33%, 45%);
   font-weight: 400;
+  color: #4B76A8;
 }
 
 h1{
-   // font-family: 'Dancing Script', cursive;
   color: #FFFFFF;
   font-size: 26px;
   position: absolute;
@@ -43,59 +40,60 @@ h1{
   margin-top: 10px;
   background: #FFFFFF;
   border-radius: 4px;
-  height: 42px;
+  height: 64px;
   box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
 }
 
 .container{
   background: EDEEF0;
+  color: #4B76A8;
 }
 
 .btn-primary{
   padding: 7px 16px 8px;
-    margin: 0;
-    font-size: 12.5px;
-    display: inline-block;
-    zoom: 1;
-    cursor: pointer;
-    white-space: nowrap;
-    outline: none;
-    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
-    vertical-align: top;
-    line-height: 15px;
-    text-align: center;
-    text-decoration: none;
-    background: none;
-    background-color: #5181b8;
-    color: #fff;
-    border: 0;
-    border-radius: 4px;
-    box-sizing: border-box;
+  margin: 0;
+  font-size: 12.5px;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  vertical-align: top;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  background-color: #5181b8;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .btn-primary{
   padding: 7px 16px 8px;
-    margin: 0;
-    font-size: 12.5px;
-    display: inline-block;
-    zoom: 1;
-    cursor: pointer;
-    white-space: nowrap;
-    outline: none;
-    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
-    vertical-align: top;
-    line-height: 15px;
-    text-align: center;
-    text-decoration: none;
-    background: none;
-    background-color: #5181b8;
-    color: #fff;
-    border: 0;
-    border-radius: 4px;
-    box-sizing: border-box;
-    position: absolute;
-    top: 6px;
-    left: 12px;
+  margin: 0;
+  font-size: 12.5px;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  vertical-align: top;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  background-color: #5181b8;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 17px;
+  left: 12px;
 }
 
 .btn-primary:hover{
@@ -103,4 +101,21 @@ h1{
   color: black;
   transform: scale(1.1);
   transition: all .2s ease-in-out;
+}
+
+.list-group{
+  color: #4B76A8;
+  width: 960px;
+  background-color: #F5EAF4;
+  border-radius: 4px;
+}
+
+.list-group-item{
+  color: #4B76A8;
+  border-radius: 4px;
+}
+
+.row{
+  color: #4B76A8;
+
 }

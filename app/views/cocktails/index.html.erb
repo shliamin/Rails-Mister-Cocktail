@@ -15,6 +15,7 @@
           <% @cocktails.each do |cocktail| %>
             <li class="list-group-item">
               <%= link_to cocktail.name, cocktail_path(cocktail) %>
+              <%= link_to "edit a Cocktail", edit_cocktail_path(cocktail.id) %>
             </li>
           <% end %>
         </ul>
