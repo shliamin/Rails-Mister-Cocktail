@@ -1,11 +1,16 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <h1>Create a new dose for the ingredient and press CREATE</h1>
+      <div class="page_header">
+        <h1>Create a new dose for the ingredient and press CREATE</h1>
+      </div>
       <%= simple_form_for [@cocktail, @dose] do |f| %>
       <%= f.input :description %>
       <%= f.association :ingredient %>
-      <%= f.submit "Create", class: 'btn btn-primary' %>
+      <div class ="page_footer">
+        <%= f.submit "Create", class: 'btn btn-primary-create' %>
+        <%= link_to "See all cocktails", cocktails_path, class: 'btn btn-primary' %>
+      </div>
       <% end%>
     </div>
   </div>
