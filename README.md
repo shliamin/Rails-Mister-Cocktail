@@ -1,24 +1,23 @@
-# README
+# Rails Mister Cocktail
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Rails Mister Cocktail, a vibrant Ruby on Rails application where cocktail enthusiasts and professional mixologists alike can create, manage, and share their favorite cocktail recipes.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- **Explore Cocktails**: Browse through a wide variety of cocktail recipes added by other users.
+- **Create Recipes**: Submit your own recipes, complete with ingredients and preparation instructions.
+- **Rate and Review**: Give feedback on recipes by rating them and adding your reviews.
 
-* System dependencies
+## Getting Started
 
-* Configuration
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+What things you need to install the software and how to install them:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+Ruby 2.7+
+Rails 6.0+
+PostgreSQL
+```
