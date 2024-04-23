@@ -21,3 +21,46 @@ Ruby 2.7+
 Rails 6.0+
 PostgreSQL
 ```
+
+## Getting Started
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/shliamin/Rails-Mister-Cocktail.git
+cd Rails-Mister-Cocktail
+```
+
+## Install the required gems:
+```bash
+bundle install
+```
+
+Set up the database:
+```bash
+rails db:create db:migrate
+```
+
+Start the server:
+```bash
+rails server
+```
+
+Now, visit http://localhost:3000 in your web browser to start!
+
+## Tests
+Run the following command to execute the test suite:
+```bash
+rails test
+```
+
+## Deployment
+
+This application can be deployed on platforms like Heroku. Follow the standard procedures for deploying a Rails app to your preferred service.
+
+## Contributing
+
+Contributions to the Rails Longest Word Game are welcome! Please fork the repository, create a new feature branch, and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
