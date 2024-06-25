@@ -1,0 +1,108 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #003366;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#info {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#info a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#info p {
+    margin-bottom: 0px; 
+}
+
+.letters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.letter {
+    background: linear-gradient(90deg, #676d75, #EFF1F3);
+    color: white;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px gray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"],
+.button {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover,
+.button:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+input[type="submit"]:hover,
+.button:active {
+    transform: translateY(0);
+}
+
+.box {
+    text-align: center;
+}

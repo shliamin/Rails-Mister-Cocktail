@@ -15,5 +15,9 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-console.log('Hello World from Webpacker')
-import 'bootstrap';
+import "bootstrap";
+import "../stylesheets/application";
+import "@popperjs/core";
+import "jquery";
+
+

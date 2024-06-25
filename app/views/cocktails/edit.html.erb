@@ -1,5 +1,10 @@
 
-
+<head>
+  <title>Mister Cocktail</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head>
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
@@ -10,7 +15,7 @@
       <%= f.label :name, "Rename the cocktail end press RENAME" %>
       <%= f.text_field :name%>
       <div class="page_footer">
-        <%= f.submit "rename", class: 'btn btn-primary' %>
+        <%= f.submit "rename", class: 'button' %>
       </div>
       <% end%>
     </div>
