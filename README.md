@@ -1,5 +1,7 @@
 # Rails Mister Cocktail
 
+### Efim Shliamin
+
 This is a Ruby on Rails project for managing cocktails. The application allows you to create, view, edit, and delete cocktails with various ingredients.
 
 ## Getting Started
@@ -42,7 +44,6 @@ Start the server:
 rails server
 ```
 
-Now, visit http://localhost:3000 in your web browser to start!
 
 ## Tests
 Run the following command to execute the test suite:
